@@ -1,16 +1,97 @@
-html,
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.hl {
+  display:inline-block;
+  position:relative;
+  text-decoration:none;
+  -webkit-transition:.3s;
+  transition:.3s;
+  z-index: 2;
+}
+.hl::after { 
+  background:#0099CA;
+  opacity: 0.5;
+  left:50%;
+  -webkit-transform:translateY(-4px);
+  transform: translate(10%, 70%);
+}
+.hl::before {
+  background:#0099CA;
+  opacity: 0.5;
+  /* left:5%; */
+  -webkit-transform:translateY(-4px);
+  transform: translate(10%, 70%);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.hl::before,.hl::after{
+  height: 60%;
+  bottom:5%;
+  content:'';
+  position:absolute;
+  top:5%;
+  -webkit-transition:.3s;
+  transition:.3s;
+  width:50%;
+  z-index:-1;
 }
 
-* {
-  box-sizing: border-box;
+.light-hl {
+  display:inline-block;
+  position:relative;
+  text-decoration:none;
+  -webkit-transition:.3s;
+  transition:.3s;
+  z-index: 2;
+}
+.light-hl::after { 
+  background:#0099CA;
+  left:50%;
+  -webkit-transform:translateY(-4px);
+  transform: translate(10%, 70%);
+}
+.light-hl::before {
+  background:#0099CA;
+  /* left:5%; */
+  -webkit-transform:translateY(-4px);
+  transform: translate(10%, 70%);
+}
+
+.light-hl::before,.light-hl::after{
+  height: 60%;
+  bottom:5%;
+  content:'';
+  position:absolute;
+  top:5%;
+  -webkit-transition:.3s;
+  transition:.3s;
+  width:50%;
+  opacity: 0.3;
+  z-index:-1;
+}
+.gradient-text {
+  background: linear-gradient(120deg, #2188FF 1%, #DB469F 40%);
+  /* background: linear-gradient(89.94deg, #64acff 10%, #a2facf 50%); */
+
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-img {
+  background-image: url("/welcome-bg.jpg");
+  background-size: cover;
+  /* background-image: url("/welcome-bg.jpg"); */
+  width: 100%;
+  /* height:100%; */
+}
+.main-container { 
+  height : 100%;
+}
+.curved-end { 
+  display: block;
 }
