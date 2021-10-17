@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Title from '../components/index/title'
-import Description from '../components/index/description'
+import Resume from '../components/index/resume'
+import Contact from '../components/index/contact'
+import Wave from '../components/index/wave'
 import 'tailwindcss/tailwind.css'
 import React, { useState, useEffect } from "react";
 export default function Home() {
@@ -21,8 +23,12 @@ export default function Home() {
         <title>Gan Mongklakorn</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Title offsetY={offsetY}/>
-      <Description offsetY={offsetY}/>
+      <div className='h-auto'>
+        <Title offsetY={offsetY}/>
+        <Wave />
+        <Resume offsetY={offsetY}/>
+        <Contact  offsetY={offsetY}/>
+      </div>
     </>
   )
 }

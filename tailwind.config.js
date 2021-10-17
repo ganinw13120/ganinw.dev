@@ -4,12 +4,20 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'cousine': ['Cousine', 'sans-serif'],
+    },
     colors : {
-      // black : '#11111f'
+      'dark-primary' : '#0378A6',
       black : '#24292f',
       white : colors.white,
       lightblue : '#0099CA',
-      blue : '#1849A8'
+      blue : '#1849A8',
+      red : colors.red
+    },
+    height : {
+      most : '80vh',
+      half : '50vh'
     },
     extend: {
       zIndex: {
