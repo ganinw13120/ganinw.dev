@@ -38,7 +38,7 @@ export default function Resume ({offsetY}) {
                         <Education />
                         <div className='font-black text-xl ml-6 mt-24 flex'>
                             <h2>Download my</h2>
-                            <a className="ml-3 hl text-2xl cursor-pointer" href='https://gan-public.s3.ap-southeast-1.amazonaws.com/resume.pdf' target="_blank">
+                            <a className="ml-3 hl text-2xl cursor-pointer"  rel="noreferrer" href='https://gan-public.s3.ap-southeast-1.amazonaws.com/resume.pdf' target="_blank">
                                 Resume
                             </a>
                         </div>

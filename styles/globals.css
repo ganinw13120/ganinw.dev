@@ -302,3 +302,15 @@ body {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
+
+.image-container {
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}
+.image-container .image {
+  width: 100%;
+  position: relative !important;
+  object-fit: cover; 
+  height: unset !important;
+}

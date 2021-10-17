@@ -11,7 +11,7 @@ export default function Contact ({offsetY}) {
                 <div className=' pt-12 text-xl xl:flex text-center items-center mx-auto'>
                     <div className='mx-auto'>
                         <GithubOutlined style={{color:'#474747', fontSize : 30}}/>
-                        <a className='mx-5' href='https://github.com/ganinw13120' target='_blank'>github.com/ganinw13120</a>
+                        <a className='mx-5' rel="noreferrer" href='https://github.com/ganinw13120' target='_blank'>github.com/ganinw13120</a>
                     </div>
                     <div className='xl:inline hidden'> | </div>
                     <div className='mt-8 xl:mt-0 mx-auto'>

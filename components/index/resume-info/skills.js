@@ -43,10 +43,10 @@ export default function Skills () {
                 </div>
             </div>
             <div className='mt-7 text-lg'>
-                <div className=''>I'm expertise in <span className='ml-3 text-dark-primary font-black'> Web application, DevOps</span>.</div>
+                <div className=''>I&apos;m expertise in <span className='ml-3 text-dark-primary font-black'> Web application, DevOps</span>.</div>
             </div>
             <div className='mt-5 text-lg '>
-                <div className=''>I'm also a<span className='ml-3 text-dark-primary font-black'>Fast Learner</span>.</div>
+                <div className=''>I&apos;m also a<span className='ml-3 text-dark-primary font-black'>Fast Learner</span>.</div>
             </div>
         </div>
     </>)

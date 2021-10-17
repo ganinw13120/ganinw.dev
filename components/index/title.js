@@ -17,7 +17,7 @@ const scrollto = (key) => {
 export default function Title ({offsetY}) {
     return (
         <>
-            <main className='font-cousine h-most md:h-half'>
+            <main className='font-cousine h-most md:h-half '>
                 <div className='lg:grid grid-cols-6 gap-4'>
                     <div className="col-start-1 col-end-5 px-7 md:pl-20 w-full h-full " style={{ transform: `translateY(-${offsetY * .3}px)`, transition : 'transform 0.5s' }}>
                         <div className="mt-10 pt-24">
@@ -71,6 +71,7 @@ export default function Title ({offsetY}) {
                     <div className='hidden lg:flex col-start-5 col-end-7 text-left h-auto w-auto'  style={{transform:'translate(-30%)'}}>
                         <div className='absolute h-auto animation-rotate'>
                             <Image
+                                alt='Gan Mongklakorn'
                                 src='/globe.png'
                                 width={800}
                                 height={800}
