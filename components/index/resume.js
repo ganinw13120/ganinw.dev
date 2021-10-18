@@ -8,7 +8,7 @@ import Education from './resume-info/education';
 export default function Resume ({offsetY}) {
     return (
         <>
-            <div  className="font-cousine  p-7 md:pl-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2)}px)`, transition : 'transform 0.5s' }} >
+            <div id='resume' className="font-cousine  p-7 mt-48 md:pl-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2)-100}px)`, transition : 'transform 0.5s' }} >
                 <div className="mt-10 p items-center">
                     <h2 className="font-semibold text-2xl md:text-4xl pb-2 w-auto  items-center hl" >
                         My Resume
