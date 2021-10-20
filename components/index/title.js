@@ -28,12 +28,12 @@ export default function Title ({offsetY}) {
                         <div className='flex gap-x-5 md:gap-x-10 auto-rows-auto flex-wrap pt-10'>
                             <div className="">
                                 <h1 className="font-black text-1xl md:text-2xl">
-                                FULLSTACK 
+                                Software 
                                 </h1>
                             </div>
                             <div className="">
-                                <h1 className="font-black text-1xl md:text-2xl pb-2">
-                                Web Developer
+                                <h1 className="font-black text-1xl md:text-2xl">
+                                Engineer
                                 </h1>
                             </div>
                         </div>
