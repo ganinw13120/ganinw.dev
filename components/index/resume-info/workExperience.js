@@ -8,7 +8,7 @@ export default function WorkExperience () {
             <div className='text-xl font-medium'>
                 <span>System Administrator</span>
             </div>
-            <div className='mt-3 text-lg font-medium text-dark-primary'>
+            <div className='mt-3 text-lg font-medium text-green'>
                 <span>Computer Engineering, KMUTT</span>
             </div>
             <div className='mt-3 text-black'>
@@ -28,7 +28,7 @@ export default function WorkExperience () {
             <div className='text-xl font-medium'>
                 <span>Backend Developer</span>
             </div>
-            <div className='mt-3 text-lg font-medium text-dark-primary'>
+            <div className='mt-3 text-lg font-medium text-green'>
                 <span>Tech BaseCamp CO., LTD,</span>
             </div>
             <div className='mt-3 text-black'>

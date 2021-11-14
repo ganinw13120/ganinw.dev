@@ -8,7 +8,7 @@ export default function Education () {
             <div className='text-xl font-medium'>
                 <span>Bachelor Degree (Year 3)</span>
             </div>
-            <div className='mt-3 text-lg font-medium text-dark-primary'>
+            <div className='mt-3 text-lg font-medium text-green'>
                 <span>Computer Engineering, KMUTT</span>
             </div>
         </div>
@@ -16,7 +16,7 @@ export default function Education () {
             <div className='text-xl font-medium'>
                 <span>High School</span>
             </div>
-            <div className='mt-3 text-lg font-medium text-dark-primary'>
+            <div className='mt-3 text-lg font-medium text-green'>
                 <span>Satri Angthong School</span>
             </div>
         </div>

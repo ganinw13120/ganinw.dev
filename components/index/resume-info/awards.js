@@ -19,7 +19,7 @@ const AwardItem = ({title, responsibility, detail}) => {
                 <div className='text-xl font-medium'>
                     <span>{title}</span>
                 </div>
-                <div className='mt-3 text-lg font-medium text-dark-primary'>
+                <div className='mt-3 text-lg font-medium text-green'>
                     <span>Responsibility : {responsibility}</span>
                 </div>
                 <div className='mt-3 text-black'>
