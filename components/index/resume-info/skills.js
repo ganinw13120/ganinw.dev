@@ -8,7 +8,7 @@ export default function Skills () {
             <div className='text-xl font-medium'>
                 <span>Technical Skills</span>
             </div>
-            <div className='mt-3 text-lg font-medium text-dark-primary'>
+            <div className='mt-3 text-lg font-medium text-green'>
                 <span>Language</span>
             </div>
             <div className='grid grid-cols-2 mt-3'>
@@ -25,7 +25,7 @@ export default function Skills () {
                     <div className='mt-3'>C++</div>
                 </div>
             </div>
-            <div className='mt-7 text-lg font-medium text-dark-primary'>
+            <div className='mt-7 text-lg font-medium text-green'>
                 <span>Framworks and Tools</span>
             </div>
             <div className='grid grid-cols-2 mt-3'>
@@ -43,10 +43,10 @@ export default function Skills () {
                 </div>
             </div>
             <div className='mt-7 text-lg'>
-                <div className=''>I&apos;m expertise in <span className='ml-3 text-dark-primary font-black'> Web application, DevOps</span>.</div>
+                <div className=''>I&apos;m expertise in <span className='ml-3 text-green font-black'> Web application, DevOps</span>.</div>
             </div>
             <div className='mt-5 text-lg '>
-                <div className=''>I&apos;m also a<span className='ml-3 text-dark-primary font-black'>Fast Learner</span>.</div>
+                <div className=''>I&apos;m also a<span className='ml-3 text-green font-black'>Fast Learner</span>.</div>
             </div>
         </div>
     </>)

@@ -9,17 +9,17 @@ export default function Contact ({offsetY}) {
                     </h2>
                 </div>
                 <div className=' pt-12 text-xl xl:flex text-center items-center mx-auto'>
-                    <div className='mx-auto'>
+                    <div className='mx-auto flex'>
                         <GithubOutlined style={{color:'#474747', fontSize : 30}}/>
-                        <a className='mx-5' rel="noreferrer" href='https://github.com/ganinw13120' target='_blank'>github.com/ganinw13120</a>
+                        <a className='mx-5 hoverable' rel="noreferrer" href='https://github.com/ganinw13120' target='_blank'>github.com/ganinw13120</a>
                     </div>
                     <div className='xl:inline hidden'> | </div>
-                    <div className='mt-8 xl:mt-0 mx-auto'>
+                    <div className='mt-8 xl:mt-0 mx-auto flex'>
                         <MailOutlined style={{color:'#474747', fontSize : 30, marginLeft : 30}}/>
                         <span className='mx-5'>gan131201@gmail.com</span>
                     </div>
                     <div className='xl:inline hidden'> | </div>
-                    <div className='mt-8 xl:mt-0 mx-auto'>
+                    <div className='mt-8 xl:mt-0 mx-auto flex'>
                         <PhoneOutlined style={{color:'#474747', fontSize : 30, marginLeft : 30}}/>
                         <span className='mx-5'>+66 86 406 2057</span>
                     </div>

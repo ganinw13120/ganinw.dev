@@ -8,7 +8,7 @@ import Education from './resume-info/education';
 export default function Resume ({offsetY}) {
     return (
         <>
-            <div id='resume' className="font-cousine  p-7 mt-48 md:pl-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2)-100}px)`, transition : 'transform 0.5s' }} >
+            <div id='resume' className="bg-plain-white  font-cousine  p-7 py-44 mt-48 md:px-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2)-100}px)`, transition : 'transform 0.5s' }} >
                 <div className="mt-10 p items-center">
                     <h2 className="font-semibold text-2xl md:text-4xl pb-2 w-auto  items-center hl" >
                         My Resume
@@ -22,10 +22,10 @@ export default function Resume ({offsetY}) {
                         width={300}
                         height={300}
                         quality={100}
-                        className={`rounded-full bg-gray-10 dark:bg-transparent`}
+                        className={`rounded-full drop-shadow-xl`}
                     />
                 </div>
-                <div className='pt-10 mb-5 text-2xl font-black'>
+                <div className='pt-10 mb-5 text-3xl font-normal'>
                     Gan Mongklakorn
                 </div>
                 <div className='md:grid grid-cols-2 inline  mt-16 w-full xl:w-5/6 text-center mx-auto'>
@@ -36,9 +36,9 @@ export default function Resume ({offsetY}) {
                     <div className='px-5 text-left'>
                         <Skills />
                         <Education />
-                        <div className='font-black text-xl ml-6 mt-24 flex'>
+                        <div className='font-normal text-xl ml-6 mt-24 flex'>
                             <h2>Download my</h2>
-                            <a className="ml-3 hl text-2xl cursor-pointer"  rel="noreferrer" href='https://gan-public.s3.ap-southeast-1.amazonaws.com/resume.pdf' target="_blank">
+                            <a className="ml-3 hl text-2xl cursor-pointer titleItem"  rel="noreferrer" href='https://gan-public.s3.ap-southeast-1.amazonaws.com/resume.pdf' target="_blank">
                                 Resume
                             </a>
                         </div>
