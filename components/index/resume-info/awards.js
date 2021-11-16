@@ -4,6 +4,7 @@ export default function Award () {
             <div className='header-line'>|</div>
             <span>AWARDS & COMPETITION</span>
         </div>
+        <AwardItem title='KMUTT Election Website' responsibility='Backend' detail='Election website for entire university.' />
         <AwardItem title='Botnoi CJE Hackathon (1st place)' responsibility='Backend' detail='Line chatbot with 20,000+ friends' />
         <AwardItem title='DEV Disrupt Hackathon by SCB' responsibility='Fullstack' detail='Mobile application with real time chat' />
         <AwardItem title='TOKLA 6' responsibility='Fullstack' detail='Instruction media with Unity' />
