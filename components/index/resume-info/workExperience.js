@@ -1,4 +1,4 @@
-export default function WorkExperience () {
+export default function WorkExperience() {
     return (<>
         <div className='font-black text-2xl flex'>
             <div className='header-line'>|</div>
@@ -39,6 +39,17 @@ export default function WorkExperience () {
             </div>
             <div className='mt-3 text-black'>
                 <span>- Develop web application using Laravel, Nextjs.</span>
+            </div>
+        </div>
+        <div className='ml-6 mt-12 '>
+            <div className='text-xl font-medium'>
+                <span>KMUTT's Election</span>
+            </div>
+            <div className='mt-3 text-lg font-medium text-green'>
+                <span>Responsibility : Backend</span>
+            </div>
+            <div className='mt-3 text-black'>
+                <span>KMUTT’s online election system</span>
             </div>
         </div>
     </>)
