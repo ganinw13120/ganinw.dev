@@ -49,7 +49,7 @@ export default function WorkExperience() {
                 <span>Responsibility : Backend</span>
             </div>
             <div className='mt-3 text-black'>
-                <span>KMUTT’s online election system</span>
+                <span>KMUTT&aposs online election system</span>
             </div>
         </div>
     </>)
