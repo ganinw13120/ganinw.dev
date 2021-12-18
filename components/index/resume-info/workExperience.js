@@ -43,13 +43,13 @@ export default function WorkExperience() {
         </div>
         <div className='ml-6 mt-12 '>
             <div className='text-xl font-medium'>
-                <span>KMUTT&aposss Election</span>
+                <span>KMUTT&aposs;s Election</span>
             </div>
             <div className='mt-3 text-lg font-medium text-green'>
                 <span>Responsibility : Backend</span>
             </div>
             <div className='mt-3 text-black'>
-                <span>KMUTT&aposs online election system</span>
+                <span>KMUTT&aposs; online election system</span>
             </div>
         </div>
     </>)
