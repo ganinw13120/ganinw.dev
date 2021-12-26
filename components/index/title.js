@@ -21,27 +21,27 @@ export default function Title ({offsetY}) {
                 <div className='lg:grid grid-cols-6 gap-4'>
                     <div className="col-start-1 col-end-5 px-7 md:px-8 md:mx-16 w-full " style={{ transform: `translateY(-${offsetY * .3}px)`, transition : 'transform 0.5s' }}>
                         <div className="mt-10 pt-24">
-                            <h2 className="font-semibold text-4xl xl:text-8xl text-green pb-2 w-auto">
+                            <h2 className="font-semibold text-4xl xl:text-6xl text-green pb-2 w-auto">
                                 GAN MONGKLAKORN
                             </h2>
                         </div>
                         <div className='  pt-10'>
                             <div className="">
-                                <h1 className="font-medium text-xl md:text-3xl">
+                                <h1 className="font-medium text-xl md:text-2xl">
                                 Full stack developer 
                                 </h1>
                             </div>
                         </div>
                         <div className='  pt-10'>
                             <div className="">
-                                <h1 className="font-light text-sm md:text-xl">
+                                <h1 className="font-light text-sm md:text-lg">
                                 Learning, Coding and Reading.
                                 </h1>
                             </div>
                         </div>
                         <div className='  pt-10'>
                             <div className="">
-                                <h1 className="font-light text-sm md:text-xl">
+                                <h1 className="font-light text-sm md:text-lg">
                                 Experience in developing technology solution in digital ecosystem. 
                                 </h1>
                             </div>

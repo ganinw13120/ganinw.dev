@@ -10,7 +10,7 @@ export default function Resume ({offsetY}) {
         <>
             <div id='resume' className="bg-plain-white  font-cousine  p-7 py-44 mt-48 md:px-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2)-100}px)`, transition : 'transform 0.5s' }} >
                 <div className="mt-10 p items-center">
-                    <h2 className="font-semibold text-2xl md:text-4xl pb-2 w-auto  items-center hl" >
+                    <h2 className="font-semibold text-2xl md:text-3xl pb-2 w-auto  items-center hl" >
                         My Resume
                     </h2>
                 </div>
