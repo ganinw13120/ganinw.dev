@@ -16,6 +16,7 @@ export default function Skills () {
                     <div className='mt-3'>Javascript</div>
                     <div className='mt-3'>Typescript</div>
                     <div className='mt-3'>Go</div>
+                    <div className='mt-3'>Python</div>
                     <div className='mt-3'>PHP</div>
                 </div>
                 <div>
@@ -33,7 +34,8 @@ export default function Skills () {
                     <div className='mt-3'>ReactJS</div>
                     <div className='mt-3'>NextJS</div>
                     <div className='mt-3'>Laravel</div>
-                    <div className='mt-3'>JQuery</div>
+                    <div className='mt-3'>Spring</div>
+                    <div className='mt-3'>Message Qeueue (RabbitMQ, etc.)</div>
                 </div>
                 <div>
                     <div className='mt-3'>NodeJS</div>

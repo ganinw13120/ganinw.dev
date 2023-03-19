@@ -35,7 +35,7 @@ export default function Title ({offsetY}) {
                         <div className='  pt-10'>
                             <div className="">
                                 <h1 className="font-light text-sm md:text-lg">
-                                Learning, Coding and Reading.
+                                I'm a fast learner with high passion on software.
                                 </h1>
                             </div>
                         </div>

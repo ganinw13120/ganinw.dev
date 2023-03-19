@@ -26,13 +26,6 @@ export default function Navbar ({offsetY}) {
                 <div className="hidden lg:flex flex-none col-start-3 lg:col-start-4 col-end-7 flex-wrap flex-row-reverse text-right">
                     <div className="flex-none pr-4 w-auto">
                         <div className="cursor-pointer titleItem  text-black mr-10 md:text-xl font-normal tracking-widest">
-                            <a className="hl" href="https://books.ganinw.dev">
-                                Books
-                            </a>
-                        </div>
-                    </div>
-                    <div className="flex-none pr-4 w-auto">
-                        <div className="cursor-pointer titleItem  text-black mr-10 md:text-xl font-normal tracking-widest">
                             <a className="hl" href="https://gan-mongklakorn.gitbook.io/notes/">
                                 Blogs
                             </a>

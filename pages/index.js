@@ -26,7 +26,6 @@ export default function Home() {
       <div className='h-auto bg-white'>
           <Navbar offsetY={offsetY}/>
           <Title offsetY={offsetY}/>
-        {/* <Wave /> */}
         <Resume offsetY={offsetY}/>
         <Contact  offsetY={offsetY}/>
       </div>

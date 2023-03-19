@@ -6,6 +6,39 @@ export default function WorkExperience() {
         </div>
         <div className='ml-6 mt-12 '>
             <div className='text-xl font-medium'>
+                <span>Software Engineer</span>
+            </div>
+            <div className='mt-3 text-lg font-medium text-green'>
+                <span>Wisesight</span>
+            </div>
+            <div className='mt-3 text-black'>
+                <span>(January 2023 - Present)</span>
+            </div>
+        </div>
+        <div className='ml-6 mt-12 '>
+            <div className='text-xl font-medium'>
+                <span>Software Engineer (Backend) (Intern)</span>
+            </div>
+            <div className='mt-3 text-lg font-medium text-green'>
+                <span>LINE MAN Wongnai</span>
+            </div>
+            <div className='mt-3 text-black'>
+                <span>(June - July 2022)</span>
+            </div>
+        </div>
+        <div className='ml-6 mt-12 '>
+            <div className='text-xl font-medium'>
+                <span>Backend Developer (Part-Time)</span>
+            </div>
+            <div className='mt-3 text-lg font-medium text-green'>
+                <span>Tech BaseCamp CO., LTD,</span>
+            </div>
+            <div className='mt-3 text-black'>
+                <span>(December 2020 - December 2022)</span>
+            </div>
+        </div>
+        <div className='ml-6 mt-12 '>
+            <div className='text-xl font-medium'>
                 <span>System Administrator</span>
             </div>
             <div className='mt-3 text-lg font-medium text-green'>
@@ -13,43 +46,6 @@ export default function WorkExperience() {
             </div>
             <div className='mt-3 text-black'>
                 <span>(September - November 2020)</span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>Responsibility : </span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>- Taking care of hardware in computer engineering department.</span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>- Assist teachers and staffs in department.</span>
-            </div>
-        </div>
-        <div className='ml-6 mt-12 '>
-            <div className='text-xl font-medium'>
-                <span>Backend Developer</span>
-            </div>
-            <div className='mt-3 text-lg font-medium text-green'>
-                <span>Tech BaseCamp CO., LTD,</span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>(December 2020 - Present)</span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>Responsibility : </span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>- Develop web application using Laravel, Nextjs.</span>
-            </div>
-        </div>
-        <div className='ml-6 mt-12 '>
-            <div className='text-xl font-medium'>
-                <span>KMUTT&apos;s Election</span>
-            </div>
-            <div className='mt-3 text-lg font-medium text-green'>
-                <span>Responsibility : Backend</span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>KMUTT&apos; online election system</span>
             </div>
         </div>
     </>)

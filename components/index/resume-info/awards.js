@@ -2,17 +2,18 @@ export default function Award () {
     return (<>
         <div className='font-black text-2xl flex  mt-16'>
             <div className='header-line'>|</div>
-            <span>AWARDS & COMPETITION</span>
+            <span>COMPETITION & PROJECTS</span>
         </div>
-        <AwardItem title='Botnoi CJE Hackathon (1st place)' responsibility='Backend' detail='Line chatbot with 20,000+ friends' />
-        <AwardItem title='DEV Disrupt Hackathon by SCB' responsibility='Fullstack' detail='Mobile application with real time chat' />
-        <AwardItem title='TOKLA 6' responsibility='Fullstack' detail='Instruction media with Unity' />
-        <AwardItem title='National Software Contest' responsibility='Fullstack' detail='Projects competition' />
-        <AwardItem title='Student Art and Craft Competition' responsibility='Fullstack' detail='Coding and projects competition' />
+        <Item title='KMUTT&apos;s Election' responsibility='Back-end' detail='KMUTT&apos; online election system' />
+        <Item title='Botnoi CJE Hackathon (1st place)' responsibility='Back-end' detail='Line chatbot with 20,000+ friends' />
+        <Item title='DEV Disrupt Hackathon by SCB' responsibility='Fullstack' detail='Mobile application with real time chat' />
+        <Item title='TOKLA 6' responsibility='Fullstack' detail='Instruction media with Unity' />
+        <Item title='National Software Contest' responsibility='Fullstack' detail='Projects competition' />
+        <Item title='Student Art and Craft Competition' responsibility='Fullstack' detail='Coding and projects competition' />
     </>)
 }
 
-const AwardItem = ({title, responsibility, detail}) => {
+const Item = ({title, responsibility, detail}) => {
     return (
         <>
             <div className='ml-6 mt-12 '>

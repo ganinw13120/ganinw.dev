@@ -38,7 +38,7 @@ export default function Resume ({offsetY}) {
                         <Education />
                         <div className='font-normal text-xl ml-6 mt-24 flex'>
                             <h2>Download my</h2>
-                            <a className="ml-3 hl text-2xl cursor-pointer titleItem"  rel="noreferrer" href='https://storage.googleapis.com/gan-public/resume.pdf' target="_blank">
+                            <a className="ml-3 hl text-2xl cursor-pointer titleItem"  rel="noreferrer" href='https://storage.googleapis.com/gan-public/Gan-Resume.pdf' target="_blank">
                                 Resume
                             </a>
                         </div>
