@@ -1,104 +1,119 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
 body {
-  background-color : '#F2EDEB';
+  background-color: '#F2EDEB';
   padding: 0;
   margin: 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
 .hl {
-  display:inline-block;
-  position:relative;
-  text-decoration:none;
-  -webkit-transition:.3s;
-  transition:.3s;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
   z-index: 2;
 }
-.hl::after { 
-  background:#39BF81;
+
+.hl::after {
+  background: #39BF81;
   opacity: 0.5;
-  left:50%;
-  -webkit-transform:translateY(-4px);
-  transform: translate(10%, 70%);
-}
-.hl::before {
-  background:#39BF81;
-  opacity: 0.5;
-  /* left:5%; */
-  -webkit-transform:translateY(-4px);
+  left: 50%;
+  -webkit-transform: translateY(-4px);
   transform: translate(10%, 70%);
 }
 
-.hl::before,.hl::after{
+.hl::before {
+  background: #39BF81;
+  opacity: 0.5;
+  /* left:5%; */
+  -webkit-transform: translateY(-4px);
+  transform: translate(10%, 70%);
+}
+
+.hl::before,
+.hl::after {
   height: 60%;
-  bottom:5%;
-  content:'';
-  position:absolute;
-  top:5%;
-  -webkit-transition:.3s;
-  transition:.3s;
-  width:50%;
-  z-index:-1;
+  bottom: 5%;
+  content: '';
+  position: absolute;
+  top: 5%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 50%;
+  z-index: -1;
 }
 
 .light-hl {
-  display:inline-block;
-  position:relative;
-  text-decoration:none;
-  -webkit-transition:.3s;
-  transition:.3s;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
   z-index: 2;
 }
-.light-hl::after { 
-  background:#39BF81;
-  left:50%;
-  -webkit-transform:translateY(-4px);
-  transform: translate(10%, 70%);
-}
-.light-hl::before {
-  background:#39BF81;
-  /* left:5%; */
-  -webkit-transform:translateY(-4px);
+
+.light-hl::after {
+  background: #39BF81;
+  left: 50%;
+  -webkit-transform: translateY(-4px);
   transform: translate(10%, 70%);
 }
 
-.light-hl::before,.light-hl::after{
-  height: 60%;
-  bottom:5%;
-  content:'';
-  position:absolute;
-  top:5%;
-  -webkit-transition:.3s;
-  transition:.3s;
-  width:50%;
-  opacity: 0.3;
-  z-index:-1;
+.light-hl::before {
+  background: #39BF81;
+  /* left:5%; */
+  -webkit-transform: translateY(-4px);
+  transform: translate(10%, 70%);
 }
+
+.light-hl::before,
+.light-hl::after {
+  height: 60%;
+  bottom: 5%;
+  content: '';
+  position: absolute;
+  top: 5%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 50%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
 .gradient-text {
-  background: linear-gradient(90deg, rgba(14,152,183,1) 0%, rgba(3,120,166,1) 100%);
+  background: linear-gradient(90deg, rgba(14, 152, 183, 1) 0%, rgba(3, 120, 166, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .bg-img {
   background-image: url("/globe.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
-.main-container { 
-  height : 100%;
+
+.main-container {
+  height: 100%;
 }
-.curved-end { 
+
+.curved-end {
   display: block;
 }
+
 .titleItem {
-  height : 30px;
-  font-size : 24px;
+  height: 30px;
+  font-size: 24px;
 }
+
 .titleItem:hover {
-  font-size : 25px;
+  font-size: 25px;
 }
+
 @font-face {
   font-family: "Cousine";
   src: url("/fonts/Cousine-Regular.ttf");
@@ -106,6 +121,7 @@ body {
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Cousine";
   src: url("/fonts/Cousine-Bold.ttf");
@@ -113,31 +129,36 @@ body {
   font-weight: 500;
   font-display: swap;
 }
-@media (min-width: 768px) { 
+
+@media (min-width: 768px) {
   .leftcol {
     border-style: solid;
     border-right-width: 0.1px;
     border-right-color: gray;
   }
- }
+}
+
 .animation-rotate {
   animation: rotation 25s infinite linear;
 }
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
 }
+
 .header-line {
-  margin-top : -5px;
-  margin-right:  10px;
-  background-color : #39BF81; 
-  color : #39BF81; 
-  padding-top : 5px;
-  padding-bottom : 5px;
+  margin-top: -5px;
+  margin-right: 10px;
+  background-color: #39BF81;
+  color: #39BF81;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 
@@ -153,67 +174,88 @@ body {
   0% {
     clip: rect(9px, 9999px, 11px, 0);
   }
+
   5% {
     clip: rect(46px, 9999px, 73px, 0);
   }
+
   10% {
     clip: rect(39px, 9999px, 5px, 0);
   }
+
   15% {
     clip: rect(69px, 9999px, 17px, 0);
   }
+
   20% {
     clip: rect(16px, 9999px, 8px, 0);
   }
+
   25% {
     clip: rect(65px, 9999px, 1px, 0);
   }
+
   30% {
     clip: rect(57px, 9999px, 18px, 0);
   }
+
   35% {
     clip: rect(73px, 9999px, 73px, 0);
   }
+
   40% {
     clip: rect(6px, 9999px, 76px, 0);
   }
+
   45% {
     clip: rect(58px, 9999px, 97px, 0);
   }
+
   50% {
     clip: rect(83px, 9999px, 82px, 0);
   }
+
   55% {
     clip: rect(1px, 9999px, 21px, 0);
   }
+
   60% {
     clip: rect(70px, 9999px, 1px, 0);
   }
+
   65% {
     clip: rect(49px, 9999px, 79px, 0);
   }
+
   70% {
     clip: rect(50px, 9999px, 48px, 0);
   }
+
   75% {
     clip: rect(30px, 9999px, 8px, 0);
   }
+
   80% {
     clip: rect(59px, 9999px, 26px, 0);
   }
+
   85% {
     clip: rect(74px, 9999px, 92px, 0);
   }
+
   90% {
     clip: rect(34px, 9999px, 29px, 0);
   }
+
   95% {
     clip: rect(6px, 9999px, 60px, 0);
   }
+
   100% {
     clip: rect(76px, 9999px, 96px, 0);
   }
 }
+
 .glitch:after {
   content: 'GAN MONGKLAKORN';
   position: absolute;
@@ -230,67 +272,88 @@ body {
   0% {
     clip: rect(55px, 9999px, 55px, 0);
   }
+
   5% {
     clip: rect(3px, 9999px, 16px, 0);
   }
+
   10% {
     clip: rect(54px, 9999px, 53px, 0);
   }
+
   15% {
     clip: rect(40px, 9999px, 35px, 0);
   }
+
   20% {
     clip: rect(64px, 9999px, 32px, 0);
   }
+
   25% {
     clip: rect(31px, 9999px, 78px, 0);
   }
+
   30% {
     clip: rect(25px, 9999px, 76px, 0);
   }
+
   35% {
     clip: rect(24px, 9999px, 60px, 0);
   }
+
   40% {
     clip: rect(41px, 9999px, 47px, 0);
   }
+
   45% {
     clip: rect(68px, 9999px, 84px, 0);
   }
+
   50% {
     clip: rect(82px, 9999px, 62px, 0);
   }
+
   55% {
     clip: rect(82px, 9999px, 77px, 0);
   }
+
   60% {
     clip: rect(46px, 9999px, 97px, 0);
   }
+
   65% {
     clip: rect(54px, 9999px, 57px, 0);
   }
+
   70% {
     clip: rect(66px, 9999px, 63px, 0);
   }
+
   75% {
     clip: rect(79px, 9999px, 50px, 0);
   }
+
   80% {
     clip: rect(41px, 9999px, 78px, 0);
   }
+
   85% {
     clip: rect(2px, 9999px, 58px, 0);
   }
+
   90% {
     clip: rect(41px, 9999px, 72px, 0);
   }
+
   95% {
     clip: rect(49px, 9999px, 93px, 0);
   }
+
   100% {
     clip: rect(77px, 9999px, 42px, 0);
   }
 }
+
 .glitch:before {
   content: 'GAN MONGKLAKORN';
   position: absolute;
@@ -308,14 +371,19 @@ body {
   height: 50vh;
   position: relative;
 }
+
 .image-container .image {
   width: 100%;
   position: relative !important;
-  object-fit: cover; 
+  object-fit: cover;
   height: unset !important;
 }
 
 a.hoverable:hover {
   /* background-color: black; */
   text-decoration: underline;
+}
+
+li {
+  line-height: 2;
 }

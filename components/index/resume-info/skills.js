@@ -1,4 +1,4 @@
-export default function Skills () {
+export default function Skills() {
     return (<>
         <div className='font-black text-2xl flex mt-16 md:mt-0'>
             <div className='header-line'>|</div>
@@ -20,6 +20,7 @@ export default function Skills () {
                     <div className='mt-3'>PHP</div>
                 </div>
                 <div>
+                    <div className='mt-3'>Python</div>
                     <div className='mt-3'>Java</div>
                     <div className='mt-3'>SQL</div>
                     <div className='mt-3'>C</div>
