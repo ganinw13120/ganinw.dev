@@ -3,21 +3,21 @@ const scrollto = (key) => {
         const element = document.querySelector(`#${key}`);
         console.log(element)
         if (element) {
-          element.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-            inline: 'nearest',
-          });
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+                inline: 'nearest',
+            });
         }
     }
-  };
-export default function Navbar ({offsetY}) {
+};
+export default function Navbar({ offsetY }) {
     return (
-        <nav className={`font-cousine z-10  mx-auto h-auto transition-all ${offsetY > 0 ? 'sticky bg-white' : ' '} top-0`} style={{boxShadow : offsetY > 0 ? '0 4px 4px rgba(0,0,0,0.05)' : ''}}>
+        <nav className={`font-cousine z-10  mx-auto h-auto transition-all ${offsetY > 0 ? 'sticky bg-white' : ' '} top-0`} style={{ boxShadow: offsetY > 0 ? '0 4px 4px rgba(0,0,0,0.05)' : '' }}>
             <div className="flex mx-16 py-8 md:px-8 border-b border-gray">
                 <div className="flex-none overflow-clip col-start-1 col-end-6 lg:col-end-3 mx-auto">
                     <p className="text-black text-xl md:text-2xl font-normal tracking-widest">
-                        Gan Mongklakorn 
+                        Gan Mongklakorn
                     </p>
                 </div>
                 <div className='md:flex-grow'>
@@ -31,14 +31,21 @@ export default function Navbar ({offsetY}) {
                             </a>
                         </div>
                     </div>
-                    <div className="flex-none pr-4 w-auto"  onClick={()=>{scrollto('contact')}}>
+                    <div className="flex-none pr-4 w-auto" onClick={() => { scrollto('contact') }}>
                         <div className="cursor-pointer titleItem  text-black mr-10 md:text-xl font-normal tracking-widest">
                             <a className="hl">
                                 Contact
                             </a>
                         </div>
                     </div>
-                    <div className="flex-none mr-10 text-right"  onClick={()=>{scrollto('resume')}}>
+                    <div className="flex-none mr-10 text-right" onClick={() => { scrollto('projects') }}>
+                        <div className="cursor-pointer titleItem  text-black md:text-xl font-normal tracking-widest ">
+                            <a className="hl">
+                                Projects
+                            </a>
+                        </div>
+                    </div>
+                    <div className="flex-none mr-10 text-right" onClick={() => { scrollto('resume') }}>
                         <div className="cursor-pointer titleItem  text-black md:text-xl font-normal tracking-widest ">
                             <a className="hl">
                                 Resume

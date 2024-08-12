@@ -6,6 +6,22 @@ export default function WorkExperience() {
         </div>
         <div className='ml-6 mt-12 '>
             <div className='text-xl font-medium'>
+                <span>Consultant Developer</span>
+            </div>
+            <div className='mt-3 text-lg font-medium text-green'>
+                <span>Thoughtworks</span>
+            </div>
+            <div className='mt-3 text-black'>
+                <span>
+                    <li>Work using Agile methodologies, Test-Driven Development (TDD), and pair-programming.</li>
+                </span>
+            </div>
+            <div className='mt-3 text-black'>
+                <span>(June 2024 - Present)</span>
+            </div>
+        </div>
+        <div className='ml-6 mt-12 '>
+            <div className='text-xl font-medium'>
                 <span>Software Engineer</span>
             </div>
             <div className='mt-3 text-lg font-medium text-green'>
@@ -20,7 +36,7 @@ export default function WorkExperience() {
                 </span>
             </div>
             <div className='mt-3 text-black'>
-                <span>(January 2023 - Present)</span>
+                <span>(January 2023 - May 2024)</span>
             </div>
         </div>
         <div className='ml-6 mt-12 '>

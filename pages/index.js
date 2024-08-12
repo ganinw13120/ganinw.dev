@@ -5,6 +5,7 @@ import Navbar from '../components/navbar'
 import Contact from '../components/index/contact'
 import 'tailwindcss/tailwind.css'
 import React, { useState, useEffect } from "react";
+import Projects from '../components/index/projects'
 export default function Home() {
 
   const [offsetY, setOffsetY] = useState(0);
@@ -24,10 +25,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='h-auto bg-white'>
-          <Navbar offsetY={offsetY}/>
-          <Title offsetY={offsetY}/>
-        <Resume offsetY={offsetY}/>
-        <Contact  offsetY={offsetY}/>
+        <Navbar offsetY={offsetY} />
+        <Title offsetY={offsetY} />
+        <Resume offsetY={offsetY} />
+        {/* <Projects offsetY={offsetY} /> */}
+        <Contact offsetY={offsetY} />
       </div>
     </>
   )
