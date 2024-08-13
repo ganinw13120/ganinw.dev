@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "deploy": "next build && next start"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
+    "lint": "NODE_OPTIONS=--openssl-legacy-provider next lint",
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider next build && next start"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
