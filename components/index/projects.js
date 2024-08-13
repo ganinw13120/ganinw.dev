@@ -30,7 +30,7 @@ export default function Projects({ offsetY }) {
                 </div>
                 <div className='pt-4 mb-5 text-lg w-5/6 mx-auto font-normal'>
                     Experienced software engineer with over 3 years in full-stack development, specializing in back-end.
-                    I'm a fast learner with a strong passion in software engineering field.
+                    I&apos;m a fast learner with a strong passion in software engineering field.
                 </div>
                 <div className='md:grid grid-cols-2 inline  mt-16 w-full xl:w-5/6 text-center mx-auto'>
                     <div className='leftcol px-5  text-left'>
