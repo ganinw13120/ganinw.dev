@@ -28,7 +28,7 @@ export default function Home() {
         <Navbar offsetY={offsetY} />
         <Title offsetY={offsetY} />
         <Resume offsetY={offsetY} />
-        {/* <Projects offsetY={offsetY} /> */}
+        <Projects offsetY={offsetY} />
         <Contact offsetY={offsetY} />
       </div>
     </>

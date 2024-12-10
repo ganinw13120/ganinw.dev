@@ -387,3 +387,7 @@ a.hoverable:hover {
 li {
   line-height: 2;
 }
+
+#projects {
+  scroll-margin-top: 700px;
+}

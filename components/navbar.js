@@ -1,14 +1,12 @@
 const scrollto = (key) => {
     if (typeof window !== 'undefined') {
         const element = document.querySelector(`#${key}`);
-        console.log(element)
-        if (element) {
-            element.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start',
-                inline: 'nearest',
-            });
-        }
+        if (!element) return;
+        element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest',
+        });
     }
 };
 export default function Navbar({ offsetY }) {

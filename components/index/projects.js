@@ -1,51 +1,78 @@
 import Image from "next/image";
-
-import WorkExperience from './resume-info/workExperience';
-import Award from './resume-info/awards';
-import Skills from './resume-info/skills';
-import Education from './resume-info/education';
+import Link from "next/link";
 
 export default function Projects({ offsetY }) {
     return (
         <>
-            <div id='projects' className="bg-plain-white  font-cousine  p-7 py-44 mt-48 md:px-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2) - 100}px)`, transition: 'transform 0.5s' }} >
+            <div id='projects' className="font-cousine p-7 md:px-20 w-full h-auto  items-center text-center" style={{ transform: `translateY(-${(offsetY * .2) - 100}px)`, transition: 'transform 0.5s' }} >
                 <div className="mt-10 p items-center">
                     <h2 className="font-semibold text-2xl md:text-3xl pb-2 w-auto  items-center hl" >
                         My Side Projects
                     </h2>
                 </div>
-                <div className="mt-10  items-center">
-                    <Image
-                        src={`/portrait.png`}
-                        alt='Gan Mongklakorn'
-                        priority={true}
-                        width={300}
-                        height={300}
-                        quality={100}
-                        className={`rounded-full drop-shadow-xl`}
-                    />
-                </div>
-                <div className='pt-10 mb-5 text-3xl font-normal'>
-                    Gan Mongklakorn
-                </div>
-                <div className='pt-4 mb-5 text-lg w-5/6 mx-auto font-normal'>
-                    Experienced software engineer with over 3 years in full-stack development, specializing in back-end.
-                    I&apos;m a fast learner with a strong passion in software engineering field.
-                </div>
-                <div className='md:grid grid-cols-2 inline  mt-16 w-full xl:w-5/6 text-center mx-auto'>
-                    <div className='leftcol px-5  text-left'>
-                        <WorkExperience />
-                        <Education />
+                <div className="w-5/6 mx-auto text-left">
+                    <div className='pt-16 mb-5 text-2xl font-normal'>
+                        <a className="hover:underline" href="https://random.ganinw.dev"># Random name picker game (ผีถ้วยแก้ว)</a>
                     </div>
-                    <div className='px-5 text-left'>
-                        <Skills />
-                        <Award />
-                        <div className='font-normal text-xl ml-6 mt-24 flex'>
-                            <h2>Download my</h2>
-                            <a className="ml-3 hl text-2xl cursor-pointer titleItem" rel="noreferrer" href='https://storage.googleapis.com/gan-public/Gan-Resume.pdf' target="_blank">
-                                Resume
-                            </a>
-                        </div>
+                    <div className="text-lg mb-3">
+                        A fun project that randomly pick a names for participants with Thai-style version. Perfect for adding a touch of humor and cultural flair to team activities.
+                    </div>
+                    <div className="flex justify-center">
+                        <Image
+                            alt='random.ganinw.dev'
+                            src='/random.png'
+                            width={1600}
+                            height={800}
+                        />
+                    </div>
+                </div>
+                <div className="w-5/6 mx-auto text-left">
+                    <div className='pt-16 mb-5 text-2xl font-normal'>
+                        <a className="hover:underline" href="https://condoeye.ganinw.dev"># Condoeye (Condominium visualization)</a>
+                    </div>
+                    <div className="text-lg mb-3">
+                        A comprehensive tool for visualizing all condominiums in Thailand on an interactive map. It offers a heatmap to display price trends, filters to show properties within your budget, and a historical price graph to track market changes over time.
+                    </div>
+                    <div className="flex justify-center">
+                        <Image
+                            alt='condoeye.ganinw.dev'
+                            src='/condoeye.png'
+                            width={2145}
+                            height={1350}
+                        />
+                    </div>
+                </div>
+                <div className="w-5/6 mx-auto text-left">
+                    <div className='pt-16 mb-5 text-2xl font-normal'>
+                        <a className="hover:underline"># Social media web application for cooking</a>
+                    </div>
+                    <div className="text-lg mb-3">
+                        A specialized social media platform dedicated exclusively to cooking content, designed as a practice project for implementing microservice architecture.
+                    </div>
+                    <div className="flex justify-center">
+                        <Image
+                            alt='a social media app'
+                            src='/social.png'
+                            width={1000}
+                            height={800}
+                        />
+                    </div>
+                </div>
+                <div className="w-5/6 mx-auto text-left">
+                    <div className='pt-16 mb-5 text-2xl font-normal'>
+                        <a className="hover:underline" href="https://chat.ganinw.dev"># Scalable real-time chat application</a>
+                    </div>
+                    <div className="text-lg mb-3">
+                        A real-time chat application built to handle horizontal scaling, leveraging WebSocket and a pub-sub architecture for seamless and efficient communication.
+                    </div>
+                    <div className="flex justify-center">
+                        <Image
+                            className="mx-auto"
+                            alt='condoeye.ganinw.dev'
+                            src='/chat.png'
+                            width={1090}
+                            height={630}
+                        />
                     </div>
                 </div>
             </div>
