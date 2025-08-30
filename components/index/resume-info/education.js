@@ -1,4 +1,4 @@
-export default function Education () {
+export default function Education() {
     return (<>
         <div className='font-black text-2xl flex  mt-16'>
             <div className='header-line'>|</div>
@@ -6,7 +6,7 @@ export default function Education () {
         </div>
         <div className='ml-6 mt-12 '>
             <div className='text-xl font-medium'>
-                <span>Bachelor Degree (Year 4)</span>
+                <span>Bachelor Degree</span>
             </div>
             <div className='mt-3 text-lg font-medium text-green'>
                 <span>Computer Engineering, KMUTT</span>

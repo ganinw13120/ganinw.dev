@@ -13,7 +13,10 @@ export default function WorkExperience() {
             </div>
             <div className='mt-3 text-black'>
                 <span>
-                    <li>Work using Agile methodologies, Test-Driven Development (TDD), and pair-programming.</li>
+                    <li>Partner with enterprise clients to modernize and scale complex, business-critical systems. Often involving large legacy codebases and evolving architectures.</li>
+                    <li>Provide technical consultation across product teams, emphasizing long-term software quality, maintainability, and architectural best practices.</li>
+                    <li>Collaborate cross-functionally with product managers, designers, and stakeholders to align technical decisions with business goals.</li>
+                    <li>Deliver high-quality software solutions using Agile methodologies, including Test-Driven Development (TDD), continuous integration, and pair programming.</li>
                 </span>
             </div>
             <div className='mt-3 text-black'>
