@@ -78,16 +78,5 @@ export default function WorkExperience() {
                 <span>(December 2020 - December 2022)</span>
             </div>
         </div>
-        <div className='ml-6 mt-12 '>
-            <div className='text-xl font-medium'>
-                <span>System Administrator</span>
-            </div>
-            <div className='mt-3 text-lg font-medium text-green'>
-                <span>Computer Engineering, KMUTT</span>
-            </div>
-            <div className='mt-3 text-black'>
-                <span>(September - November 2020)</span>
-            </div>
-        </div>
     </>)
 }
